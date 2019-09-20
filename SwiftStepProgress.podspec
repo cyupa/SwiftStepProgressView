@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
  s.homepage = 'http://applicodo.com'
  s.social_media_url = 'https://twitter.com/cyupa89'
  s.authors = { "Ciprian Redinciuc" => "ciprian@applicodo.com" }
- s.source = { :git => "https://github.com/cyupa/SwiftStepProgressView.git", :tag => "v"+s.version.to_s }
+ s.source = { :git => "https://github.com/cyupa/SwiftStepProgressView.git", :tag => s.version.to_s }
  s.platforms = { :ios => "9.0" }
  s.requires_arc = true
  s.swift_versions = ['3.2', '4.0', '4.2', '5.0']

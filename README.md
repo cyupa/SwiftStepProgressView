@@ -5,7 +5,7 @@
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftStepProgressView.svg)](https://cocoapods.org/pods/SwiftStepProgressView)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftStepProgress.svg)](https://cocoapods.org/pods/SwiftStepProgressView)
 
 [![Travis](https://img.shields.io/travis/cyupa/SwiftStepProgressView/master.svg)](https://travis-ci.org/cyupa/SwiftStepProgressView/branches)
 [![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)

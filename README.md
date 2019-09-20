@@ -12,6 +12,8 @@
 
 A step progress view written in Swift
 
+![SwiftStepProgress][progress_view]
+
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)

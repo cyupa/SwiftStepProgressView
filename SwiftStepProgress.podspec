@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
- s.name = 'SwiftStepProgressView'
+ s.name = 'SwiftStepProgress'
  s.version = '0.0.1'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'A step progress view written in Swift'

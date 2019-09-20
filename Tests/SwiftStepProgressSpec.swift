@@ -10,7 +10,7 @@ import Quick
 import Nimble
 @testable import SwiftStepProgressView
 
-class SwiftStepProgressViewSpec: QuickSpec {
+class SwiftStepProgressSpec: QuickSpec {
     override func spec() {
         describe("SwiftStepProgressViewSpec") {
             it("works") {

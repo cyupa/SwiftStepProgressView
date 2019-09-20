@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-               BuildableName = "SwiftStepProgressView.framework"
-               BlueprintName = "SwiftStepProgressView-macOS"
-               ReferencedContainer = "container:SwiftStepProgressView.xcodeproj">
+               BuildableName = "SwiftStepProgress.framework"
+               BlueprintName = "SwiftStepProgress-macOS"
+               ReferencedContainer = "container:SwiftStepProgress.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3549BB7E1DA38B0000C63030"
-               BuildableName = "SwiftStepProgressViewTests-macOS.xctest"
-               BlueprintName = "SwiftStepProgressViewTests-macOS"
-               ReferencedContainer = "container:SwiftStepProgressView.xcodeproj">
+               BuildableName = "SwiftStepProgressTests-macOS.xctest"
+               BlueprintName = "SwiftStepProgressTests-macOS"
+               ReferencedContainer = "container:SwiftStepProgress.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "SwiftStepProgressView.framework"
-            BlueprintName = "SwiftStepProgressView-macOS"
-            ReferencedContainer = "container:SwiftStepProgressView.xcodeproj">
+            BuildableName = "SwiftStepProgress.framework"
+            BlueprintName = "SwiftStepProgress-macOS"
+            ReferencedContainer = "container:SwiftStepProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "SwiftStepProgressView.framework"
-            BlueprintName = "SwiftStepProgressView-macOS"
-            ReferencedContainer = "container:SwiftStepProgressView.xcodeproj">
+            BuildableName = "SwiftStepProgress.framework"
+            BlueprintName = "SwiftStepProgress-macOS"
+            ReferencedContainer = "container:SwiftStepProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3549BB3A1DA389E800C63030"
-            BuildableName = "SwiftStepProgressView.framework"
-            BlueprintName = "SwiftStepProgressView-macOS"
-            ReferencedContainer = "container:SwiftStepProgressView.xcodeproj">
+            BuildableName = "SwiftStepProgress.framework"
+            BlueprintName = "SwiftStepProgress-macOS"
+            ReferencedContainer = "container:SwiftStepProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

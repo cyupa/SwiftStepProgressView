@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SwiftStepProgressView.xcodeproj">
+      location = "group:/Volumes/Data/Projects/Work/CGM/SwiftStepProgressView/SwiftStepProgress.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:scripts">

@@ -11,12 +11,12 @@
 		3549BB511DA38A2000C63030 /* SwiftStepProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* SwiftStepProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* SwiftStepProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* SwiftStepProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB531DA38A2200C63030 /* SwiftStepProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* SwiftStepProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB661DA38ADB00C63030 /* SwiftStepProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* SwiftStepProgressView.framework */; };
-		3549BB751DA38AEF00C63030 /* SwiftStepProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* SwiftStepProgressView.framework */; };
-		3549BB841DA38B0000C63030 /* SwiftStepProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* SwiftStepProgressView.framework */; };
-		3549BB8B1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift */; };
-		3549BB8C1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift */; };
-		3549BB8D1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift */; };
+		3549BB661DA38ADB00C63030 /* SwiftStepProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* SwiftStepProgress.framework */; };
+		3549BB751DA38AEF00C63030 /* SwiftStepProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* SwiftStepProgress.framework */; };
+		3549BB841DA38B0000C63030 /* SwiftStepProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* SwiftStepProgress.framework */; };
+		3549BB8B1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressSpec.swift */; };
+		3549BB8C1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressSpec.swift */; };
+		3549BB8D1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* SwiftStepProgressSpec.swift */; };
 		354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5841F8A659800B18FAE /* Quick.framework */; };
 		354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; };
 		354AD5881F8A65B500B18FAE /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -33,6 +33,10 @@
 		35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B742381F82A62900829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; };
 		35B742391F82A62900829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; };
+		D62041C72334EE610046F2CD /* StepProgressViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */; };
+		D62041C82334EE610046F2CD /* StepProgressViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */; };
+		D62041C92334EE610046F2CD /* StepProgressViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */; };
+		D62041CA2334EE610046F2CD /* StepProgressViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,20 +103,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		353A78F6224F762800055190 /* SwiftStepProgressView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftStepProgressView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* SwiftStepProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftStepProgressView.h; sourceTree = "<group>"; };
-		3549BB211DA389CD00C63030 /* SwiftStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB2E1DA389DB00C63030 /* SwiftStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB3B1DA389E800C63030 /* SwiftStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB481DA389F300C63030 /* SwiftStepProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB211DA389CD00C63030 /* SwiftStepProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB2E1DA389DB00C63030 /* SwiftStepProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB3B1DA389E800C63030 /* SwiftStepProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB481DA389F300C63030 /* SwiftStepProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStepProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB551DA38A5E00C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		3549BB571DA38A8800C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		3549BB581DA38A8800C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3549BB611DA38ADB00C63030 /* SwiftStepProgressViewTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressViewTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB701DA38AEF00C63030 /* SwiftStepProgressViewTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressViewTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB7F1DA38B0000C63030 /* SwiftStepProgressViewTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressViewTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB8A1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStepProgressViewSpec.swift; sourceTree = "<group>"; };
+		3549BB611DA38ADB00C63030 /* SwiftStepProgressTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB701DA38AEF00C63030 /* SwiftStepProgressTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB7F1DA38B0000C63030 /* SwiftStepProgressTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftStepProgressTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3549BB8A1DA38C0A00C63030 /* SwiftStepProgressSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStepProgressSpec.swift; sourceTree = "<group>"; };
 		354AD5841F8A659800B18FAE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		354AD5851F8A659800B18FAE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		359649021FB18CBF00FC7ADC /* SwiftStepProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStepProgressView.swift; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 		35B7422E1F82A5E000829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		35B742341F82A61D00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		35B742351F82A61E00829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		D62041C52334D88B0046F2CD /* SwiftStepProgress.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftStepProgress.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressViewLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +162,7 @@
 			files = (
 				35B742311F82A5EC00829B21 /* Nimble.framework in Frameworks */,
 				35B742321F82A5EC00829B21 /* Quick.framework in Frameworks */,
-				3549BB661DA38ADB00C63030 /* SwiftStepProgressView.framework in Frameworks */,
+				3549BB661DA38ADB00C63030 /* SwiftStepProgress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +172,7 @@
 			files = (
 				354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */,
 				354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */,
-				3549BB751DA38AEF00C63030 /* SwiftStepProgressView.framework in Frameworks */,
+				3549BB751DA38AEF00C63030 /* SwiftStepProgress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +182,7 @@
 			files = (
 				35B742381F82A62900829B21 /* Nimble.framework in Frameworks */,
 				35B742391F82A62900829B21 /* Quick.framework in Frameworks */,
-				3549BB841DA38B0000C63030 /* SwiftStepProgressView.framework in Frameworks */,
+				3549BB841DA38B0000C63030 /* SwiftStepProgress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +192,7 @@
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
-				353A78F6224F762800055190 /* SwiftStepProgressView.playground */,
+				D62041C52334D88B0046F2CD /* SwiftStepProgress.playground */,
 				3549BB161DA3890B00C63030 /* Sources */,
 				3549BB191DA3890B00C63030 /* Tests */,
 				3549BB061DA387DB00C63030 /* Products */,
@@ -198,13 +203,13 @@
 		3549BB061DA387DB00C63030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB211DA389CD00C63030 /* SwiftStepProgressView.framework */,
-				3549BB2E1DA389DB00C63030 /* SwiftStepProgressView.framework */,
-				3549BB3B1DA389E800C63030 /* SwiftStepProgressView.framework */,
-				3549BB481DA389F300C63030 /* SwiftStepProgressView.framework */,
-				3549BB611DA38ADB00C63030 /* SwiftStepProgressViewTests-iOS.xctest */,
-				3549BB701DA38AEF00C63030 /* SwiftStepProgressViewTests-tvOS.xctest */,
-				3549BB7F1DA38B0000C63030 /* SwiftStepProgressViewTests-macOS.xctest */,
+				3549BB211DA389CD00C63030 /* SwiftStepProgress.framework */,
+				3549BB2E1DA389DB00C63030 /* SwiftStepProgress.framework */,
+				3549BB3B1DA389E800C63030 /* SwiftStepProgress.framework */,
+				3549BB481DA389F300C63030 /* SwiftStepProgress.framework */,
+				3549BB611DA38ADB00C63030 /* SwiftStepProgressTests-iOS.xctest */,
+				3549BB701DA38AEF00C63030 /* SwiftStepProgressTests-tvOS.xctest */,
+				3549BB7F1DA38B0000C63030 /* SwiftStepProgressTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,7 +226,7 @@
 		3549BB191DA3890B00C63030 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB8A1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift */,
+				3549BB8A1DA38C0A00C63030 /* SwiftStepProgressSpec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
 			);
 			path = Tests;
@@ -263,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				359649021FB18CBF00FC7ADC /* SwiftStepProgressView.swift */,
+				D62041C62334EE610046F2CD /* StepProgressViewLayer.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -305,9 +311,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3549BB201DA389CD00C63030 /* SwiftStepProgressView-iOS */ = {
+		3549BB201DA389CD00C63030 /* SwiftStepProgress-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-iOS" */;
+			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-iOS" */;
 			buildPhases = (
 				3549BB1C1DA389CD00C63030 /* Sources */,
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
@@ -318,14 +324,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftStepProgressView-iOS";
+			name = "SwiftStepProgress-iOS";
 			productName = "SwiftStepProgressView-iOS";
-			productReference = 3549BB211DA389CD00C63030 /* SwiftStepProgressView.framework */;
+			productReference = 3549BB211DA389CD00C63030 /* SwiftStepProgress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB2D1DA389DB00C63030 /* SwiftStepProgressView-watchOS */ = {
+		3549BB2D1DA389DB00C63030 /* SwiftStepProgress-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-watchOS" */;
+			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-watchOS" */;
 			buildPhases = (
 				3549BB291DA389DB00C63030 /* Sources */,
 				3549BB2A1DA389DB00C63030 /* Frameworks */,
@@ -336,14 +342,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftStepProgressView-watchOS";
+			name = "SwiftStepProgress-watchOS";
 			productName = "SwiftStepProgressView-watchOS";
-			productReference = 3549BB2E1DA389DB00C63030 /* SwiftStepProgressView.framework */;
+			productReference = 3549BB2E1DA389DB00C63030 /* SwiftStepProgress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB3A1DA389E800C63030 /* SwiftStepProgressView-macOS */ = {
+		3549BB3A1DA389E800C63030 /* SwiftStepProgress-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-macOS" */;
+			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-macOS" */;
 			buildPhases = (
 				3549BB361DA389E800C63030 /* Sources */,
 				3549BB371DA389E800C63030 /* Frameworks */,
@@ -354,14 +360,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftStepProgressView-macOS";
+			name = "SwiftStepProgress-macOS";
 			productName = "SwiftStepProgressView-macOS";
-			productReference = 3549BB3B1DA389E800C63030 /* SwiftStepProgressView.framework */;
+			productReference = 3549BB3B1DA389E800C63030 /* SwiftStepProgress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB471DA389F300C63030 /* SwiftStepProgressView-tvOS */ = {
+		3549BB471DA389F300C63030 /* SwiftStepProgress-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-tvOS" */;
+			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-tvOS" */;
 			buildPhases = (
 				3549BB431DA389F300C63030 /* Sources */,
 				3549BB441DA389F300C63030 /* Frameworks */,
@@ -372,14 +378,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftStepProgressView-tvOS";
+			name = "SwiftStepProgress-tvOS";
 			productName = "SwiftStepProgressView-tvOS";
-			productReference = 3549BB481DA389F300C63030 /* SwiftStepProgressView.framework */;
+			productReference = 3549BB481DA389F300C63030 /* SwiftStepProgress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3549BB601DA38ADB00C63030 /* SwiftStepProgressViewTests-iOS */ = {
+		3549BB601DA38ADB00C63030 /* SwiftStepProgressTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-iOS" */;
+			buildConfigurationList = 3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-iOS" */;
 			buildPhases = (
 				3549BB5D1DA38ADB00C63030 /* Sources */,
 				3549BB5E1DA38ADB00C63030 /* Frameworks */,
@@ -391,14 +397,14 @@
 			dependencies = (
 				3549BB681DA38ADB00C63030 /* PBXTargetDependency */,
 			);
-			name = "SwiftStepProgressViewTests-iOS";
+			name = "SwiftStepProgressTests-iOS";
 			productName = "SwiftStepProgressViewTests-iOS";
-			productReference = 3549BB611DA38ADB00C63030 /* SwiftStepProgressViewTests-iOS.xctest */;
+			productReference = 3549BB611DA38ADB00C63030 /* SwiftStepProgressTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3549BB6F1DA38AEF00C63030 /* SwiftStepProgressViewTests-tvOS */ = {
+		3549BB6F1DA38AEF00C63030 /* SwiftStepProgressTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-tvOS" */;
+			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-tvOS" */;
 			buildPhases = (
 				3549BB6C1DA38AEF00C63030 /* Sources */,
 				3549BB6D1DA38AEF00C63030 /* Frameworks */,
@@ -410,14 +416,14 @@
 			dependencies = (
 				3549BB771DA38AEF00C63030 /* PBXTargetDependency */,
 			);
-			name = "SwiftStepProgressViewTests-tvOS";
+			name = "SwiftStepProgressTests-tvOS";
 			productName = "SwiftStepProgressViewTests-tvOS";
-			productReference = 3549BB701DA38AEF00C63030 /* SwiftStepProgressViewTests-tvOS.xctest */;
+			productReference = 3549BB701DA38AEF00C63030 /* SwiftStepProgressTests-tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3549BB7E1DA38B0000C63030 /* SwiftStepProgressViewTests-macOS */ = {
+		3549BB7E1DA38B0000C63030 /* SwiftStepProgressTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-macOS" */;
+			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-macOS" */;
 			buildPhases = (
 				3549BB7B1DA38B0000C63030 /* Sources */,
 				3549BB7C1DA38B0000C63030 /* Frameworks */,
@@ -429,9 +435,9 @@
 			dependencies = (
 				3549BB861DA38B0000C63030 /* PBXTargetDependency */,
 			);
-			name = "SwiftStepProgressViewTests-macOS";
+			name = "SwiftStepProgressTests-macOS";
 			productName = "SwiftStepProgressViewTests-macOS";
-			productReference = 3549BB7F1DA38B0000C63030 /* SwiftStepProgressViewTests-macOS.xctest */;
+			productReference = 3549BB7F1DA38B0000C63030 /* SwiftStepProgressTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -481,7 +487,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "SwiftStepProgressView" */;
+			buildConfigurationList = 3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "SwiftStepProgress" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -494,13 +500,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3549BB201DA389CD00C63030 /* SwiftStepProgressView-iOS */,
-				3549BB601DA38ADB00C63030 /* SwiftStepProgressViewTests-iOS */,
-				3549BB3A1DA389E800C63030 /* SwiftStepProgressView-macOS */,
-				3549BB7E1DA38B0000C63030 /* SwiftStepProgressViewTests-macOS */,
-				3549BB471DA389F300C63030 /* SwiftStepProgressView-tvOS */,
-				3549BB6F1DA38AEF00C63030 /* SwiftStepProgressViewTests-tvOS */,
-				3549BB2D1DA389DB00C63030 /* SwiftStepProgressView-watchOS */,
+				3549BB201DA389CD00C63030 /* SwiftStepProgress-iOS */,
+				3549BB601DA38ADB00C63030 /* SwiftStepProgressTests-iOS */,
+				3549BB3A1DA389E800C63030 /* SwiftStepProgress-macOS */,
+				3549BB7E1DA38B0000C63030 /* SwiftStepProgressTests-macOS */,
+				3549BB471DA389F300C63030 /* SwiftStepProgress-tvOS */,
+				3549BB6F1DA38AEF00C63030 /* SwiftStepProgressTests-tvOS */,
+				3549BB2D1DA389DB00C63030 /* SwiftStepProgress-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -563,6 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359649031FB18CC000FC7ADC /* SwiftStepProgressView.swift in Sources */,
+				D62041C72334EE610046F2CD /* StepProgressViewLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359649061FB18CC000FC7ADC /* SwiftStepProgressView.swift in Sources */,
+				D62041CA2334EE610046F2CD /* StepProgressViewLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +587,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359649041FB18CC000FC7ADC /* SwiftStepProgressView.swift in Sources */,
+				D62041C82334EE610046F2CD /* StepProgressViewLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359649051FB18CC000FC7ADC /* SwiftStepProgressView.swift in Sources */,
+				D62041C92334EE610046F2CD /* StepProgressViewLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8B1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */,
+				3549BB8B1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +612,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8D1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */,
+				3549BB8D1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8C1DA38C0A00C63030 /* SwiftStepProgressViewSpec.swift in Sources */,
+				3549BB8C1DA38C0A00C63030 /* SwiftStepProgressSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,17 +629,17 @@
 /* Begin PBXTargetDependency section */
 		3549BB681DA38ADB00C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB201DA389CD00C63030 /* SwiftStepProgressView-iOS */;
+			target = 3549BB201DA389CD00C63030 /* SwiftStepProgress-iOS */;
 			targetProxy = 3549BB671DA38ADB00C63030 /* PBXContainerItemProxy */;
 		};
 		3549BB771DA38AEF00C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB471DA389F300C63030 /* SwiftStepProgressView-tvOS */;
+			target = 3549BB471DA389F300C63030 /* SwiftStepProgress-tvOS */;
 			targetProxy = 3549BB761DA38AEF00C63030 /* PBXContainerItemProxy */;
 		};
 		3549BB861DA38B0000C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3549BB3A1DA389E800C63030 /* SwiftStepProgressView-macOS */;
+			target = 3549BB3A1DA389E800C63030 /* SwiftStepProgress-macOS */;
 			targetProxy = 3549BB851DA38B0000C63030 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -769,8 +779,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgress;
+				PRODUCT_NAME = SwiftStepProgress;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -790,8 +800,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgress;
+				PRODUCT_NAME = SwiftStepProgress;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -811,7 +821,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -834,7 +844,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -857,7 +867,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -879,7 +889,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -898,7 +908,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -920,7 +930,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.swiftprogressview.SwiftStepProgressView;
-				PRODUCT_NAME = SwiftStepProgressView;
+				PRODUCT_NAME = SwiftStepProgress;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1042,7 +1052,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "SwiftStepProgressView" */ = {
+		3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "SwiftStepProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB0B1DA387DB00C63030 /* Debug */,
@@ -1051,7 +1061,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-iOS" */ = {
+		3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB271DA389CD00C63030 /* Debug */,
@@ -1060,7 +1070,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-watchOS" */ = {
+		3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB341DA389DB00C63030 /* Debug */,
@@ -1069,7 +1079,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-macOS" */ = {
+		3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB411DA389E800C63030 /* Debug */,
@@ -1078,7 +1088,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressView-tvOS" */ = {
+		3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgress-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB4E1DA389F300C63030 /* Debug */,
@@ -1087,7 +1097,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-iOS" */ = {
+		3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB6A1DA38ADB00C63030 /* Debug */,
@@ -1096,7 +1106,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-tvOS" */ = {
+		3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB791DA38AEF00C63030 /* Debug */,
@@ -1105,7 +1115,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressViewTests-macOS" */ = {
+		3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "SwiftStepProgressTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3549BB881DA38B0000C63030 /* Debug */,

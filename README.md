@@ -12,7 +12,7 @@
 
 A step progress view written in Swift
 
-![SwiftStepProgress][progress_view.png]
+![SwiftStepProgress](progress_view.png)
 
 - [Requirements](#requirements)
 - [Installation](#installation)

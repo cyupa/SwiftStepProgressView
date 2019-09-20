@@ -1,0 +1,8 @@
+author: Ciprian Redinciuc
+author_url: https://twitter.com/cyupa89
+github_url: https://github.com/cyupa/SwiftStepProgressView
+root_url: https://cyupa.github.io/SwiftStepProgressView/
+module: SwiftStepProgressView
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'SwiftStepProgressView.xcworkspace', -scheme, 'SwiftStepProgressView-iOS']

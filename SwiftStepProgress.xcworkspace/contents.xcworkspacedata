@@ -53,6 +53,6 @@
       location = "group:Package.resolved">
    </FileRef>
    <FileRef
-      location = "group:SwiftStepProgressView.podspec">
+      location = "group:/Volumes/Data/Projects/Work/CGM/SwiftStepProgressView/SwiftStepProgress.podspec">
    </FileRef>
 </Workspace>

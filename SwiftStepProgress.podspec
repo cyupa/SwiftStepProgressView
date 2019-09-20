@@ -7,12 +7,13 @@ Pod::Spec.new do |s|
  s.social_media_url = 'https://twitter.com/cyupa89'
  s.authors = { "Ciprian Redinciuc" => "ciprian@applicodo.com" }
  s.source = { :git => "https://github.com/cyupa/SwiftStepProgressView.git", :tag => "v"+s.version.to_s }
- s.platforms = { :ios => "9.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
+ s.platforms = { :ios => "9.0" }
  s.requires_arc = true
+ s.swift_versions = ['3.2', '4.0', '4.2', '5.0']
 
  s.default_subspec = "Core"
  s.subspec "Core" do |ss|
      ss.source_files  = "Sources/**/*.swift"
-     ss.framework  = "Foundation"
+     ss.frameworks  = ["Foundation", "UIKit", "QuartzCore"]
  end
 end
